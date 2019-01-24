@@ -16,8 +16,8 @@
 
   </head>
   <body>
-    <h1>Test project</h1>
     <div class="container">
+      <h1>Test project</h1>
     <form class="form-horizontal" method="post" id="ajax_form" action="">
       <div class="form-group">
         <label for="inputFirstName" class="col-xs-2 control-label">Имя:</label>

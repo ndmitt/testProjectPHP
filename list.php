@@ -15,9 +15,8 @@
 
   </head>
   <body>
-    <h1>Зарегистрированные пользователи</h1>
-
     <div class="container">
+        <h1>Зарегистрированные пользователи</h1>
         <div class="form-group">
             <a class="btn btn-primary" href="/index.php" role="button">Перейти на главную</a>
         </div>
