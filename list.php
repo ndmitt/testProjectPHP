@@ -15,14 +15,16 @@
 
   </head>
   <body>
-    <h1>Test project</h1>
+    <h1>Зарегистрированные пользователи</h1>
 
     <div class="container">
-        <div class="col-xs-offset-2 col-xs-10">
-        <a class="btn btn-primary" href="/file.csv" role="button">Загрузить CSV</a>
+        <div class="form-group">
+            <a class="btn btn-primary" href="/index.php" role="button">Перейти на главную</a>
         </div>
-        <br>
-        <div class="col">
+        <div class="form-group">
+            <a class="btn btn-primary" href="/file.csv" role="button">Загрузить CSV</a>
+        </div>
+        <div class="list-group">
             <?php
             if (($fp = fopen("file.csv", "r")) !== FALSE) {
                 while (($data = fgetcsv($fp, 0, ";")) !== FALSE) {
@@ -39,6 +41,7 @@
             }
             ?>
         </div>
+
     </div>
 
       

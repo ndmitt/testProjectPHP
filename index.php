@@ -22,13 +22,13 @@
       <div class="form-group">
         <label for="inputFirstName" class="col-xs-2 control-label">Имя:</label>
         <div class="col-xs-10">
-          <input type="text" class="form-control" name="inputFirstName" placeholder="Введите имя (обязательное поле)">
+          <input type="text" class="form-control" name="inputFirstName" placeholder="Введите имя">
         </div>
       </div>
       <div class="form-group">
         <label for="inputLastName" class="col-xs-2 control-label">Фамилия:</label>
         <div class="col-xs-10">
-          <input type="text" class="form-control" name="inputLastName" placeholder="Введите фамилию (обязательное поле)">
+          <input type="text" class="form-control" name="inputLastName" placeholder="Введите фамилию">
         </div>
       </div>
       <div class="form-group">
